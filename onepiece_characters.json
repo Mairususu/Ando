@@ -1,0 +1,989 @@
+[
+    {
+        "Name": "Monkey D Luffy",
+        "Bounty": "3.000.000.000",
+        "Age": "19 ans",
+        "Crew": "The Chapeau de Paille crew",
+        "Fruit": "Gum-Gum Fruit"
+    },
+    {
+        "Name": "Roronoa Zoro",
+        "Bounty": "320.000.000",
+        "Age": "21 ans",
+        "Crew": "The Chapeau de Paille crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Nami",
+        "Bounty": "66.000.000",
+        "Age": "20 ans",
+        "Crew": "The Chapeau de Paille crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Usopp",
+        "Bounty": "200.000.000",
+        "Age": "19 ans",
+        "Crew": "The Chapeau de Paille crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Sanji",
+        "Bounty": "330.000.000",
+        "Age": "21 ans",
+        "Crew": "The Chapeau de Paille crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Tony-Tony Chopper",
+        "Bounty": "100",
+        "Age": "17 ans",
+        "Crew": "The Chapeau de Paille crew",
+        "Fruit": "Fruit of the Human"
+    },
+    {
+        "Name": "Nico Robin",
+        "Bounty": "130.000.000",
+        "Age": "30 ans",
+        "Crew": "The Chapeau de Paille crew",
+        "Fruit": "Fruit Des Éclosions"
+    },
+    {
+        "Name": "Franky",
+        "Bounty": "94.000.000",
+        "Age": "36 ans",
+        "Crew": "The Chapeau de Paille crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Brook",
+        "Bounty": "83.000.000",
+        "Age": "90 ans",
+        "Crew": "The Chapeau de Paille crew",
+        "Fruit": "Fruit of the Resurrection"
+    },
+    {
+        "Name": "Jinbe",
+        "Bounty": "438.000.000",
+        "Age": "46 ans",
+        "Crew": "The Chapeau de Paille crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Cavendish",
+        "Bounty": "330.000.000",
+        "Age": "26 ans",
+        "Crew": "Armarda du Chapeau de Paille",
+        "Fruit": null
+    },
+    {
+        "Name": "Suleiman",
+        "Bounty": "67.0000.000",
+        "Age": "40 ans",
+        "Crew": "Armarda du Chapeau de Paille",
+        "Fruit": null
+    },
+    {
+        "Name": "Bartolomeo",
+        "Bounty": "200.000.000",
+        "Age": "24 ans",
+        "Crew": "Armarda du Chapeau de Paille",
+        "Fruit": "Fruit of the Barrier"
+    },
+    {
+        "Name": "Gambia",
+        "Bounty": "67.0000.000",
+        "Age": "",
+        "Crew": "Armarda du Chapeau de Paille",
+        "Fruit": null
+    },
+    {
+        "Name": "Sai",
+        "Bounty": "210.000.000",
+        "Age": "28 ans",
+        "Crew": "Armarda du Chapeau de Paille",
+        "Fruit": null
+    },
+    {
+        "Name": "Orlumbus",
+        "Bounty": "148.000.000",
+        "Age": "42 ans",
+        "Crew": "Armarda du Chapeau de Paille",
+        "Fruit": null
+    },
+    {
+        "Name": "Baggy / Le Clown",
+        "Bounty": "15.0000.000",
+        "Age": "39 ans",
+        "Crew": "Baggy's Delivery",
+        "Fruit": "Fruit of Fragmentation"
+    },
+    {
+        "Name": "Alvida",
+        "Bounty": "5.000.000",
+        "Age": "27 ans",
+        "Crew": "Baggy's Delivery",
+        "Fruit": "Fruit Glisse-Glisse"
+    },
+    {
+        "Name": "Galdino",
+        "Bounty": "24.000.000",
+        "Age": "37 ans",
+        "Crew": "Baggy's Delivery",
+        "Fruit": "Ciro-Fruit"
+    },
+    {
+        "Name": "Kuro",
+        "Bounty": "16.000.000",
+        "Age": "35 ans",
+        "Crew": "The Black Cat crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Sham",
+        "Bounty": "7.000.000",
+        "Age": "23 ans",
+        "Crew": "The Black Cat crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Buchi",
+        "Bounty": "7.000.000",
+        "Age": "23 ans",
+        "Crew": "The Black Cat crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Krieg / Don Krieg",
+        "Bounty": "17.000.000",
+        "Age": "44 ans",
+        "Crew": "Don Krieg's Pirate Armada",
+        "Fruit": null
+    },
+    {
+        "Name": "Gyn",
+        "Bounty": "12.000.000",
+        "Age": "27 ans",
+        "Crew": "Don Krieg's Pirate Armada",
+        "Fruit": null
+    },
+    {
+        "Name": "Montblanc Cricket",
+        "Bounty": "25.000.000",
+        "Age": "43 ans",
+        "Crew": "Primate League",
+        "Fruit": null
+    },
+    {
+        "Name": "Masira",
+        "Bounty": "23.000.000",
+        "Age": "25 ans",
+        "Crew": "Primate League",
+        "Fruit": null
+    },
+    {
+        "Name": "Shojo",
+        "Bounty": "36.000.000",
+        "Age": "27 ans",
+        "Crew": "Primate League",
+        "Fruit": null
+    },
+    {
+        "Name": "Foxy",
+        "Bounty": "24.000.000",
+        "Age": "38 ans",
+        "Crew": "The Foxy crew",
+        "Fruit": "Ramollo fruit"
+    },
+    {
+        "Name": "Gecko Moria",
+        "Bounty": "320.000.000",
+        "Age": "50 ans",
+        "Crew": "Thriller Bark",
+        "Fruit": "Fruit of the Shadow"
+    },
+    {
+        "Name": "Laura",
+        "Bounty": "24.000.000",
+        "Age": "26 ans",
+        "Crew": "The crew of the Rolling",
+        "Fruit": null
+    },
+    {
+        "Name": "Trafalgar D. Water Law",
+        "Bounty": "500.000.000",
+        "Age": "26 ans",
+        "Crew": "The Hearth crew",
+        "Fruit": "Fruit of the Scalpel"
+    },
+    {
+        "Name": "Bepo",
+        "Bounty": "500",
+        "Age": "22 ans",
+        "Crew": "The Hearth crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Eustass Kidd",
+        "Bounty": "470.000.000",
+        "Age": "23 ans",
+        "Crew": "The Kid crew",
+        "Fruit": "Magnéto-Fruit"
+    },
+    {
+        "Name": "Killer",
+        "Bounty": "200.000.000",
+        "Age": "27 ans",
+        "Crew": "The Kid crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Capone Bege",
+        "Bounty": "350.000.000",
+        "Age": "42 ans",
+        "Crew": "The Fire Tank crew",
+        "Fruit": "Fruit du Château"
+    },
+    {
+        "Name": "Vito",
+        "Bounty": "95.000.000",
+        "Age": "36 ans",
+        "Crew": "The Fire Tank crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Gotti",
+        "Bounty": "90.000.000",
+        "Age": "33 ans",
+        "Crew": "The Fire Tank crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Jewelry Bonney",
+        "Bounty": "140.000.000",
+        "Age": "24 ans",
+        "Crew": "The Fire Tank crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Urouge",
+        "Bounty": "108.000.000",
+        "Age": "47 ans",
+        "Crew": "The crew of Les Moines Dépravés",
+        "Fruit": null
+    },
+    {
+        "Name": "Boa Hancock",
+        "Bounty": "80.000.000",
+        "Age": "31 ans",
+        "Crew": "The Kuja Pirates crew",
+        "Fruit": "Passion fruit"
+    },
+    {
+        "Name": "Boa Sandersonia",
+        "Bounty": "40.000.000",
+        "Age": "30 ans",
+        "Crew": "The Kuja Pirates crew",
+        "Fruit": "Fruit of the Reptile, Anaconda version"
+    },
+    {
+        "Name": "Boa Marigold",
+        "Bounty": "40.000.000",
+        "Age": "28 ans",
+        "Crew": "The Kuja Pirates crew",
+        "Fruit": "Fruit of the Reptile, Cobra Royal version"
+    },
+    {
+        "Name": "Caribou",
+        "Bounty": "210.000.000",
+        "Age": "32 ans",
+        "Crew": "The Caribou crew",
+        "Fruit": "Fruit du Marais"
+    },
+    {
+        "Name": "Coribou",
+        "Bounty": "190.000.000",
+        "Age": "29 ans",
+        "Crew": "The Caribou crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Ficher Tiger",
+        "Bounty": "230.000.000",
+        "Age": "48 ans",
+        "Crew": "The Sun Pirates crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Crocodile",
+        "Bounty": "81.000.000",
+        "Age": "46 ans",
+        "Crew": null,
+        "Fruit": null
+    },
+    {
+        "Name": "Das Bones",
+        "Bounty": "75.000.000",
+        "Age": "31 ans",
+        "Crew": null,
+        "Fruit": null
+    },
+    {
+        "Name": "Edward Weeble",
+        "Bounty": "480.000.000",
+        "Age": "35 ans",
+        "Crew": null,
+        "Fruit": null
+    },
+    {
+        "Name": "Shanks",
+        "Bounty": "4.048.900.000",
+        "Age": "39 ans",
+        "Crew": "Le Roux crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Rockstar",
+        "Bounty": "94.000.000",
+        "Age": "",
+        "Crew": "Le Roux crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Charlotte Linlin / Big Mom",
+        "Bounty": "4.388.000.000",
+        "Age": "68 ans",
+        "Crew": "Big Mom's crew",
+        "Fruit": "Fruit of Souls"
+    },
+    {
+        "Name": "Charlotte Dent-de-chien",
+        "Bounty": "1.057.000.000",
+        "Age": "48 ans",
+        "Crew": "Big Mom's crew",
+        "Fruit": "Glutinous Rice Fruit"
+    },
+    {
+        "Name": "Charlotte Smoothie",
+        "Bounty": "932.000.000",
+        "Age": "35 ans",
+        "Crew": "Big Mom's crew",
+        "Fruit": "Horse Fruit"
+    },
+    {
+        "Name": "Charlotte Cracker",
+        "Bounty": "860.000.000",
+        "Age": "45 ans",
+        "Crew": "Big Mom's crew",
+        "Fruit": "Cookie Fruit"
+    },
+    {
+        "Name": "Charlotte Slurp",
+        "Bounty": "700.000.000",
+        "Age": "50 ans",
+        "Crew": "Big Mom's crew",
+        "Fruit": "Fruit de la Léchouille"
+    },
+    {
+        "Name": "Charlotte Daifuku",
+        "Bounty": "300.000.000",
+        "Age": "48 ans",
+        "Crew": "Big Mom's crew",
+        "Fruit": "Fruit of the Lamp"
+    },
+    {
+        "Name": "Charlotte Oven",
+        "Bounty": "300.000.000",
+        "Age": "48 ans",
+        "Crew": "Big Mom's crew",
+        "Fruit": "Fruit of Heat"
+    },
+    {
+        "Name": "Charlotte Mont d’Or",
+        "Bounty": "120.000.000",
+        "Age": "38 ans",
+        "Crew": "Big Mom's crew",
+        "Fruit": "Fruit of the Book"
+    },
+    {
+        "Name": "Charlotte Snack",
+        "Bounty": "600.000.000",
+        "Age": "30 ans",
+        "Crew": "Big Mom's crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Pekoms",
+        "Bounty": "330.000.000",
+        "Age": "27 ans",
+        "Crew": "Big Mom's crew",
+        "Fruit": "Turtle Fruit"
+    },
+    {
+        "Name": "Delœuf",
+        "Bounty": "429.000.000",
+        "Age": "46 ans",
+        "Crew": "Big Mom's crew",
+        "Fruit": "Fruit of the Egg"
+    },
+    {
+        "Name": "Boddin",
+        "Bounty": "155.000.000",
+        "Age": "",
+        "Crew": "Big Mom's crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Kaido",
+        "Bounty": "4.611.100.000",
+        "Age": "59 ans",
+        "Crew": "The Hundred Beasts crew",
+        "Fruit": "Fruit of the Fish, Azure Dragon version"
+    },
+    {
+        "Name": "King",
+        "Bounty": "1.390.000.000",
+        "Age": "47 ans",
+        "Crew": "The Hundred Beasts crew",
+        "Fruit": "Fruit of the Dinosaur, Pteranodon version"
+    },
+    {
+        "Name": "Queen",
+        "Bounty": "1.320.000.000",
+        "Age": "56 ans",
+        "Crew": "The Hundred Beasts crew",
+        "Fruit": "Fruit of the Dinosaur, Brachiosaurus version"
+    },
+    {
+        "Name": "Jack",
+        "Bounty": "1.000.000.000",
+        "Age": "28 ans",
+        "Crew": "The Hundred Beasts crew",
+        "Fruit": "Fruit of the Pachyderm, Mammoth version"
+    },
+    {
+        "Name": "Page One",
+        "Bounty": "290.000.000",
+        "Age": "20 ans",
+        "Crew": "The Hundred Beasts crew",
+        "Fruit": "Fruit of the Dinosaur, Spinosaurus version"
+    },
+    {
+        "Name": "Ulti",
+        "Bounty": "400.000.000",
+        "Age": "22 ans",
+        "Crew": "The Hundred Beasts crew",
+        "Fruit": "Fruit of the Dinosaur, Pachycephalosaurus version"
+    },
+    {
+        "Name": "Who’s Who",
+        "Bounty": "546.000.000",
+        "Age": "38 ans",
+        "Crew": "The Hundred Beasts crew",
+        "Fruit": "Fruit du Félin, saber-toothed tiger version"
+    },
+    {
+        "Name": "Black Maria",
+        "Bounty": "480.000.000",
+        "Age": "29 ans",
+        "Crew": "The Hundred Beasts crew",
+        "Fruit": "Spider fruit, Rosamygale grauvogeli version"
+    },
+    {
+        "Name": "Sasaki",
+        "Bounty": "472.000.000",
+        "Age": "34 ans",
+        "Crew": "The Hundred Beasts crew",
+        "Fruit": "Fruit of the Dinosaur, Triceratops version"
+    },
+    {
+        "Name": "Basil Hawkins",
+        "Bounty": "320.000.000",
+        "Age": "31 ans",
+        "Crew": "The Hundred Beasts crew",
+        "Fruit": "Fruit de la Paille"
+    },
+    {
+        "Name": "Marchall D. Teach / Barbe Noire",
+        "Bounty": "2.247.600.000",
+        "Age": "40 ans",
+        "Crew": "Blackbeard's crew",
+        "Fruit": "Fruit of Darkness"
+    },
+    {
+        "Name": "Jesus Burgess",
+        "Bounty": "20.000.000",
+        "Age": "29 ans",
+        "Crew": "Blackbeard's crew",
+        "Fruit": "Fruit of strength"
+    },
+    {
+        "Name": "Van Auger",
+        "Bounty": "64.000.000",
+        "Age": "27 ans",
+        "Crew": "Blackbeard's crew",
+        "Fruit": "Fruit of teleportation"
+    },
+    {
+        "Name": "Lafitte",
+        "Bounty": "42.200.000",
+        "Age": "41 ans",
+        "Crew": "Blackbeard's crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Doc Q",
+        "Bounty": "72.000.000",
+        "Age": "28 ans",
+        "Crew": "Blackbeard's crew",
+        "Fruit": "Fruit of the disease"
+    },
+    {
+        "Name": "Barbe Rose",
+        "Bounty": "52.000.000",
+        "Age": "",
+        "Crew": "Blackbeard's crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Gol D. Roger",
+        "Bounty": "5.564.800.000",
+        "Age": "53 ans",
+        "Crew": "The Pirates Roger crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Arlong",
+        "Bounty": "20.000.000",
+        "Age": "41 ans",
+        "Crew": "The Arlong crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Kuroobi",
+        "Bounty": "9.000.000",
+        "Age": "38 ans",
+        "Crew": "The Arlong crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Smack",
+        "Bounty": "5.500.000",
+        "Age": "35 ans",
+        "Crew": "The Arlong crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Sarquiss",
+        "Bounty": "38.000.000",
+        "Age": "27 ans",
+        "Crew": "Equipage de Bellamy",
+        "Fruit": null
+    },
+    {
+        "Name": "Edward Newgate / Barbe Blanche",
+        "Bounty": "5.046.000.000",
+        "Age": "72 ans",
+        "Crew": "Whitebeard's crew",
+        "Fruit": "Fruit of Trembling"
+    },
+    {
+        "Name": "Portgas D. Ace",
+        "Bounty": "550.000.000",
+        "Age": "20 ans",
+        "Crew": "Whitebeard's crew",
+        "Fruit": "Pyro-Fruit"
+    },
+    {
+        "Name": "Squardo",
+        "Bounty": "210.000.000",
+        "Age": "52 ans",
+        "Crew": "Whitebeard's crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Little Oz Junior",
+        "Bounty": "550.000.000",
+        "Age": "72 ans",
+        "Crew": "Whitebeard's crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Barbos Bruneriguez / Barbe Brune",
+        "Bounty": "80.060.000",
+        "Age": "45 ans",
+        "Crew": "The crew of Barbe Brune",
+        "Fruit": null
+    },
+    {
+        "Name": "Bluejam",
+        "Bounty": "14.300.000",
+        "Age": "42 ans",
+        "Crew": "The Bluejam crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Porchemy",
+        "Bounty": "3.400.000",
+        "Age": "25 ans",
+        "Crew": "The Bluejam crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Demaro Black",
+        "Bounty": "26.000.000",
+        "Age": "36 ans",
+        "Crew": "Faux Equipage du Chapeau de Paille",
+        "Fruit": null
+    },
+    {
+        "Name": "Don Quijote Doflamingo",
+        "Bounty": "340.000.000",
+        "Age": "41 ans",
+        "Crew": "Don Quixote's crew",
+        "Fruit": "Fruit du Fil"
+    },
+    {
+        "Name": "Trébol",
+        "Bounty": "99.000.000",
+        "Age": "49 ans",
+        "Crew": "Don Quixote's crew",
+        "Fruit": "Poisse-Poisse fruit"
+    },
+    {
+        "Name": "Diamante",
+        "Bounty": "99.000.000",
+        "Age": "45 ans",
+        "Crew": "Don Quixote's crew",
+        "Fruit": "Fruit of the Wind Thief"
+    },
+    {
+        "Name": "Pica",
+        "Bounty": "99.000.000",
+        "Age": "40 ans",
+        "Crew": "Don Quixote's crew",
+        "Fruit": "Fruit de la Caillasse"
+    },
+    {
+        "Name": "Lao G",
+        "Bounty": "61.000.000",
+        "Age": "70 ans",
+        "Crew": "Don Quixote's crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Señor Pink",
+        "Bounty": "58.000.000",
+        "Age": "46 ans",
+        "Crew": "Don Quixote's crew",
+        "Fruit": "Fruit of the Barbotage"
+    },
+    {
+        "Name": "Machvise",
+        "Bounty": "11.000.000",
+        "Age": "52 ans",
+        "Crew": "Don Quixote's crew",
+        "Fruit": "Fruit of the Tonne-Tonne"
+    },
+    {
+        "Name": "Dellinger",
+        "Bounty": "15.0000.000",
+        "Age": "16 ans",
+        "Crew": "Don Quixote's crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Gladius",
+        "Bounty": "31.000.000",
+        "Age": "33 ans",
+        "Crew": "Don Quixote's crew",
+        "Fruit": "Fruit of the Paf-Paf"
+    },
+    {
+        "Name": "Chinjao",
+        "Bounty": "542.000.000",
+        "Age": "78 ans",
+        "Crew": "Pays des fleurs",
+        "Fruit": null
+    },
+    {
+        "Name": "Izo",
+        "Bounty": "510.000.000",
+        "Age": "45 ans",
+        "Crew": "Pays des Wa",
+        "Fruit": null
+    },
+    {
+        "Name": "Rock",
+        "Bounty": "20.000.000",
+        "Age": "25 ans",
+        "Crew": "Punk Hazard",
+        "Fruit": null
+    },
+    {
+        "Name": "Scotch",
+        "Bounty": "20.000.000",
+        "Age": "25 ans",
+        "Crew": "Punk Hazard",
+        "Fruit": null
+    },
+    {
+        "Name": "Kelly Funk",
+        "Bounty": "57.000.000",
+        "Age": "36 ans",
+        "Crew": "Royaume de Mogalo",
+        "Fruit": "Fruit de la Pelisse"
+    },
+    {
+        "Name": "Bobby Funk",
+        "Bounty": "36.000.000",
+        "Age": "33 ans",
+        "Crew": "Royaume de Mogalo",
+        "Fruit": null
+    },
+    {
+        "Name": "Marco",
+        "Bounty": "1.374.000.000",
+        "Age": "45 ans",
+        "Crew": "Sphinx",
+        "Fruit": "Phoenix Fruit"
+    },
+    {
+        "Name": "Octy",
+        "Bounty": "8.000.000",
+        "Age": "38 ans",
+        "Crew": "Île des hommes-poissons",
+        "Fruit": null
+    },
+    {
+        "Name": "Sabo",
+        "Bounty": "602.000.000",
+        "Age": "22 ans",
+        "Crew": "Armée Révolutionnaire",
+        "Fruit": "Pyro-Fruit"
+    },
+    {
+        "Name": "Emporio Ivankov",
+        "Bounty": "100.000.000",
+        "Age": "53 ans",
+        "Crew": "Armée Révolutionnaire",
+        "Fruit": "Fruit of Hormones"
+    },
+    {
+        "Name": "Corbeau",
+        "Bounty": "400.000.000",
+        "Age": "47 ans",
+        "Crew": "Armée Révolutionnaire",
+        "Fruit": null
+    },
+    {
+        "Name": "Belo Betty",
+        "Bounty": "457.000.000",
+        "Age": "34 ans",
+        "Crew": "Armée Révolutionnaire",
+        "Fruit": "Fruit of Exaltation"
+    },
+    {
+        "Name": "Morley",
+        "Bounty": "293.000.000",
+        "Age": "160 ans",
+        "Crew": "Armée Révolutionnaire",
+        "Fruit": "Fruit of the Pousse-Pousse"
+    },
+    {
+        "Name": "Lindbergh",
+        "Bounty": "316.000.000",
+        "Age": "37 ans",
+        "Crew": "Armée Révolutionnaire",
+        "Fruit": null
+    },
+    {
+        "Name": "Inazuma",
+        "Bounty": "100.000.000",
+        "Age": "29 ans",
+        "Crew": "Armée Révolutionnaire",
+        "Fruit": "Fruit of the Scissors"
+    },
+    {
+        "Name": "Zala",
+        "Bounty": "35.000.000",
+        "Age": "28 ans",
+        "Crew": "Anciens membres du Baroque Works",
+        "Fruit": "Sea Urchin Fruit"
+    },
+    {
+        "Name": "Bentham",
+        "Bounty": "32.000.000",
+        "Age": "32 ans",
+        "Crew": "Anciens membres du Baroque Works",
+        "Fruit": "Travesti-Fruit"
+    },
+    {
+        "Name": "Marianne",
+        "Bounty": "29.000.000",
+        "Age": "18 ans",
+        "Crew": "Anciens membres du Baroque Works",
+        "Fruit": null
+    },
+    {
+        "Name": "Babe",
+        "Bounty": "3.200.000",
+        "Age": "30 ans",
+        "Crew": "Anciens membres du Baroque Works",
+        "Fruit": null
+    },
+    {
+        "Name": "Drophy",
+        "Bounty": "14.000.000",
+        "Age": "51 ans",
+        "Crew": "Anciens membres du Baroque Works",
+        "Fruit": "Digging Fruit"
+    },
+    {
+        "Name": "Gemme",
+        "Bounty": "10.000.000",
+        "Age": "26 ans",
+        "Crew": "Anciens membres du Baroque Works",
+        "Fruit": "Fruit Boum-Boum"
+    },
+    {
+        "Name": "Mikita",
+        "Bounty": "7.500.000",
+        "Age": "24 ans",
+        "Crew": "Anciens membres du Baroque Works",
+        "Fruit": "Kilo-Kilo Fruit"
+    },
+    {
+        "Name": "Bellamy",
+        "Bounty": "195.000.000",
+        "Age": "27 ans",
+        "Crew": "Don Quixote's crew",
+        "Fruit": "Fruit of the Spring"
+    },
+    {
+        "Name": "Bartholomew Kuma",
+        "Bounty": "296.000.000",
+        "Age": "47 ans",
+        "Crew": "Esclave",
+        "Fruit": "Fruit of the Pads"
+    },
+    {
+        "Name": "César Clown",
+        "Bounty": "300.000.000",
+        "Age": "40 ans",
+        "Crew": "Punk Hazard",
+        "Fruit": "Fruit of the Gas"
+    },
+    {
+        "Name": "El Gorago",
+        "Bounty": "10.000.000",
+        "Age": "",
+        "Crew": null,
+        "Fruit": "Fruit of the Vocalise"
+    },
+    {
+        "Name": "Golass",
+        "Bounty": "8.000.000",
+        "Age": "",
+        "Crew": null,
+        "Fruit": null
+    },
+    {
+        "Name": "Woonan",
+        "Bounty": "60.000.000",
+        "Age": "",
+        "Crew": null,
+        "Fruit": null
+    },
+    {
+        "Name": "Bear King",
+        "Bounty": "11.600.000",
+        "Age": "",
+        "Crew": "The Trump Pirates crew",
+        "Fruit": "Unbreakable Fruit"
+    },
+    {
+        "Name": "Honey Queen",
+        "Bounty": "7.800.000",
+        "Age": "",
+        "Crew": "The Trump Pirates crew",
+        "Fruit": "Fruit of Dissolution"
+    },
+    {
+        "Name": "Pin Joker",
+        "Bounty": "9.900.000",
+        "Age": "",
+        "Crew": "The Trump Pirates crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Boo Jack",
+        "Bounty": "3.200.000",
+        "Age": "",
+        "Crew": "The Trump Pirates crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Skunk One",
+        "Bounty": "6.000.000",
+        "Age": "",
+        "Crew": "The Trump Pirates crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Bulter",
+        "Bounty": "14.900.000",
+        "Age": "",
+        "Crew": null,
+        "Fruit": null
+    },
+    {
+        "Name": "Hotdog",
+        "Bounty": "4.000.000",
+        "Age": "",
+        "Crew": null,
+        "Fruit": null
+    },
+    {
+        "Name": "Heaby",
+        "Bounty": "4.200.000",
+        "Age": "",
+        "Crew": null,
+        "Fruit": null
+    },
+    {
+        "Name": "Général Gasparde",
+        "Bounty": "95.000.000",
+        "Age": "",
+        "Crew": "Gasparde's crew",
+        "Fruit": "Candy Fruit"
+    },
+    {
+        "Name": "Needless",
+        "Bounty": "57.000.000",
+        "Age": "",
+        "Crew": "Gasparde's crew",
+        "Fruit": null
+    },
+    {
+        "Name": "Orlombus",
+        "Bounty": "148.000.000",
+        "Age": "42 ans",
+        "Crew": "Fleet Yonta Maria",
+        "Fruit": null
+    },
+    {
+        "Name": "Wetton",
+        "Bounty": "14.800.000",
+        "Age": "",
+        "Crew": null,
+        "Fruit": null
+    },
+    {
+        "Name": "Bigalo",
+        "Bounty": "14.900.000",
+        "Age": "",
+        "Crew": "Equipage de Bigalo",
+        "Fruit": null
+    }
+]
