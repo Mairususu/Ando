@@ -1,0 +1,509 @@
+[
+  {
+    "name": "Monkey D. Luffy",
+    "bounty": 30000000,
+    "arc": "Arlong Park",
+    "event": "Defeat of Arlong"
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "bounty": 100000000,
+    "arc": "Alabasta",
+    "event": "Defeat of Crocodile"
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "bounty": 300000000,
+    "arc": "Enies Lobby",
+    "event": "Defeat of CP9, Declaring War on World Government"
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "bounty": 400000000,
+    "arc": "Marineford",
+    "event": "Actions at Impel Down and Marineford"
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "bounty": 500000000,
+    "arc": "Dressrosa",
+    "event": "Defeat of Doflamingo"
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "bounty": 1500000000,
+    "arc": "Whole Cake Island",
+    "event": "Defeat of Katakuri, Declared 'Fifth Emperor'"
+  },
+  {
+    "name": "Monkey D. Luffy",
+    "bounty": 3000000000,
+    "arc": "Wano",
+    "event": "Defeat of Kaido, Became an Emperor"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "bounty": 60000000,
+    "arc": "Alabasta",
+    "event": "Defeat of Daz Bonez (Mr. 1)"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "bounty": 120000000,
+    "arc": "Enies Lobby",
+    "event": "Defeat of Kaku"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "bounty": 320000000,
+    "arc": "Dressrosa",
+    "event": "Defeat of Pica"
+  },
+  {
+    "name": "Roronoa Zoro",
+    "bounty": 1111000000,
+    "arc": "Wano",
+    "event": "Defeat of King"
+  },
+  {
+    "name": "Nami",
+    "bounty": 16000000,
+    "arc": "Enies Lobby",
+    "event": "Defeat of Kalifa"
+  },
+  {
+    "name": "Nami",
+    "bounty": 66000000,
+    "arc": "Dressrosa",
+    "event": "Involvement in Dressrosa Incident"
+  },
+  {
+    "name": "Nami",
+    "bounty": 366000000,
+    "arc": "Wano",
+    "event": "Involvement in Wano War"
+  },
+  {
+    "name": "Usopp",
+    "bounty": 30000000,
+    "arc": "Enies Lobby",
+    "event": "As 'Sogeking', Sniped Spandam, Burned WG Flag"
+  },
+  {
+    "name": "Usopp",
+    "bounty": 200000000,
+    "arc": "Dressrosa",
+    "event": "Freed Toys, Became 'God Usopp'"
+  },
+  {
+    "name": "Usopp",
+    "bounty": 500000000,
+    "arc": "Wano",
+    "event": "Involvement in Wano War"
+  },
+  {
+    "name": "Sanji",
+    "bounty": 77000000,
+    "arc": "Enies Lobby",
+    "event": "Defeat of Jabra"
+  },
+  {
+    "name": "Sanji",
+    "bounty": 177000000,
+    "arc": "Dressrosa",
+    "event": "Involvement, Poster changed to 'Only Alive'"
+  },
+  {
+    "name": "Sanji",
+    "bounty": 330000000,
+    "arc": "Whole Cake Island",
+    "event": "Involvement with Big Mom Pirates, Vinsmoke name added"
+  },
+  {
+    "name": "Sanji",
+    "bounty": 1032000000,
+    "arc": "Wano",
+    "event": "Defeat of Queen"
+  },
+  {
+    "name": "Tony Tony Chopper",
+    "bounty": 50,
+    "arc": "Enies Lobby",
+    "event": "Defeat of Kumadori, Mistaken for pet"
+  },
+  {
+    "name": "Tony Tony Chopper",
+    "bounty": 100,
+    "arc": "Dressrosa",
+    "event": "Involvement, Still mistaken for pet"
+  },
+  {
+    "name": "Tony Tony Chopper",
+    "bounty": 1000,
+    "arc": "Wano",
+    "event": "Involvement, Cured Ice Oni virus, Still pet"
+  },
+  {
+    "name": "Nico Robin",
+    "bounty": 79000000,
+    "arc": "Ohara",
+    "event": "Destruction of Ohara, Able to read Poneglyphs"
+  },
+  {
+    "name": "Nico Robin",
+    "bounty": 80000000,
+    "arc": "Enies Lobby",
+    "event": "Rejoined crew, Declared enemy of the World"
+  },
+  {
+    "name": "Nico Robin",
+    "bounty": 130000000,
+    "arc": "Dressrosa",
+    "event": "Involvement in Dressrosa Incident"
+  },
+  {
+    "name": "Nico Robin",
+    "bounty": 930000000,
+    "arc": "Wano",
+    "event": "Defeat of Black Maria"
+  },
+  {
+    "name": "Franky",
+    "bounty": 44000000,
+    "arc": "Enies Lobby",
+    "event": "Defeat of Fukurou, Burned Pluton blueprints"
+  },
+  {
+    "name": "Franky",
+    "bounty": 94000000,
+    "arc": "Dressrosa",
+    "event": "Defeat of Senor Pink"
+  },
+  {
+    "name": "Franky",
+    "bounty": 394000000,
+    "arc": "Wano",
+    "event": "Defeat of Sasaki"
+  },
+  {
+    "name": "Brook",
+    "bounty": 33000000,
+    "arc": "Pre-Timeskip",
+    "event": "Captain of the Rumbar Pirates (50 years ago)"
+  },
+  {
+    "name": "Brook",
+    "bounty": 83000000,
+    "arc": "Dressrosa",
+    "event": "Involvement in Dressrosa Incident"
+  },
+  {
+    "name": "Brook",
+    "bounty": 383000000,
+    "arc": "Wano",
+    "event": "Involvement, 'Soul King'"
+  },
+  {
+    "name": "Jinbe",
+    "bounty": 76000000,
+    "arc": "Pre-Warlord",
+    "event": "Member of Sun Pirates"
+  },
+  {
+    "name": "Jinbe",
+    "bounty": 250000000,
+    "arc": "Warlord Era",
+    "event": "Became Warlord (Bounty Frozen)"
+  },
+  {
+    "name": "Jinbe",
+    "bounty": 438000000,
+    "arc": "Whole Cake Island",
+    "event": "Defied Big Mom, Aided Straw Hats"
+  },
+  {
+    "name": "Jinbe",
+    "bounty": 1100000000,
+    "arc": "Wano",
+    "event": "Defeat of Who's-Who, Officially joined crew"
+  },
+  {
+    "name": "Trafalgar Law",
+    "bounty": 200000000,
+    "arc": "Sabaody",
+    "event": "Introduction as Supernova"
+  },
+  {
+    "name": "Trafalgar Law",
+    "bounty": 440000000,
+    "arc": "Pre-Dressrosa",
+    "event": "Became Warlord (Bounty Frozen)"
+  },
+  {
+    "name": "Trafalgar Law",
+    "bounty": 500000000,
+    "arc": "Dressrosa",
+    "event": "Warlord status revoked, Alliance with Luffy"
+  },
+  {
+    "name": "Trafalgar Law",
+    "bounty": 3000000000,
+    "arc": "Wano",
+    "event": "Defeat of Big Mom (with Kid)"
+  },
+  {
+    "name": "Eustass Kid",
+    "bounty": 315000000,
+    "arc": "Sabaody",
+    "event": "Introduction as Supernova (High civilian casualties)"
+  },
+  {
+    "name": "Eustass Kid",
+    "bounty": 470000000,
+    "arc": "Post-Timeskip",
+    "event": "Actions in the New World"
+  },
+  {
+    "name": "Eustass Kid",
+    "bounty": 3000000000,
+    "arc": "Wano",
+    "event": "Defeat of Big Mom (with Law)"
+  },
+  {
+    "name": "Marshall D. Teach",
+    "bounty": 0,
+    "arc": "Pre-Marineford",
+    "event": "Unknown"
+  },
+  {
+    "name": "Marshall D. Teach",
+    "bounty": 2247600000,
+    "arc": "Post-Marineford",
+    "event": "Became an Emperor"
+  },
+  {
+    "name": "Marshall D. Teach",
+    "bounty": 3996000000,
+    "arc": "Current",
+    "event": "Actions as Emperor"
+  },
+  {
+    "name": "Buggy",
+    "bounty": 15000000,
+    "arc": "East Blue",
+    "event": "Defeated by Luffy"
+  },
+  {
+    "name": "Buggy",
+    "bounty": 3189000000,
+    "arc": "Post-Wano",
+    "event": "Became an Emperor, Co-founder of Cross Guild"
+  },
+  {
+    "name": "Dracule Mihawk",
+    "bounty": 3590000000,
+    "arc": "Post-Wano",
+    "event": "Warlord system abolished, Co-founder of Cross Guild"
+  },
+  {
+    "name": "Crocodile",
+    "bounty": 81000000,
+    "arc": "Warlord Era",
+    "event": "Became Warlord (Bounty Frozen)"
+  },
+  {
+    "name": "Crocodile",
+    "bounty": 1965000000,
+    "arc": "Post-Wano",
+    "event": "Warlord system abolished, Co-founder of Cross Guild"
+  },
+  {
+    "name": "Boa Hancock",
+    "bounty": 80000000,
+    "arc": "Warlord Era",
+    "event": "Became Warlord (Bounty Frozen)"
+  },
+  {
+    "name": "Boa Hancock",
+    "bounty": 1659000000,
+    "arc": "Post-Wano",
+    "event": "Warlord system abolished"
+  },
+  {
+    "name": "Gecko Moria",
+    "bounty": 320000000,
+    "arc": "Warlord Era",
+    "event": "Became Warlord (Bounty Frozen)"
+  },
+  {
+    "name": "Donquixote Doflamingo",
+    "bounty": 340000000,
+    "arc": "Warlord Era",
+    "event": "Became Warlord (Bounty Frozen)"
+  },
+  {
+    "name": "Killer",
+    "bounty": 162000000,
+    "arc": "Sabaody",
+    "event": "Introduction as Supernova"
+  },
+  {
+    "name": "Killer",
+    "bounty": 200000000,
+    "arc": "Wano",
+    "event": "Involvement in Wano War, Defeat of Hawkins"
+  },
+  {
+    "name": "Capone Bege",
+    "bounty": 138000000,
+    "arc": "Sabaody",
+    "event": "Introduction as Supernova"
+  },
+  {
+    "name": "Capone Bege",
+    "bounty": 350000000,
+    "arc": "Whole Cake Island",
+    "event": "Involvement in Big Mom Assassination plot"
+  },
+  {
+    "name": "Jewelry Bonney",
+    "bounty": 140000000,
+    "arc": "Sabaody",
+    "event": "Introduction as Supernova"
+  },
+  {
+    "name": "Jewelry Bonney",
+    "bounty": 320000000,
+    "arc": "Post-Wano",
+    "event": "Re-emergence, Kuma's daughter"
+  },
+  {
+    "name": "Scratchmen Apoo",
+    "bounty": 198000000,
+    "arc": "Sabaody",
+    "event": "Introduction as Supernova"
+  },
+  {
+    "name": "As scratchmen apoo",
+    "bounty": 350000000,
+    "arc": "Wano",
+    "event": "Involvement in Wano War"
+  },
+  {
+    "name": "Basil Hawkins",
+    "bounty": 249000000,
+    "arc": "Sabaody",
+    "event": "Introduction as Supernova"
+  },
+  {
+    "name": "Basil Hawkins",
+    "bounty": 320000000,
+    "arc": "Post-Timeskip",
+    "event": "Affiliation with Kaido"
+  },
+  {
+    "name": "X Drake",
+    "bounty": 222000000,
+    "arc": "Sabaody",
+    "event": "Introduction as Supernova"
+  },
+  {
+    "name": "Urouge",
+    "bounty": 108000000,
+    "arc": "Sabaody",
+    "event": "Introduction as Supernova"
+  },
+  {
+    "name": "Portgas D. Ace",
+    "bounty": 550000000,
+    "arc": "Post-Marineford",
+    "event": "Final Bounty (Revealed after death)"
+  },
+  {
+    "name": "Sabo",
+    "bounty": 602000000,
+    "arc": "Dressrosa",
+    "event": "Bounty revealed as Revolutionary Army Chief of Staff"
+  },
+  {
+    "name": "Charlotte Katakuri",
+    "bounty": 1057000000,
+    "arc": "Whole Cake Island",
+    "event": "Strongest Sweet Commander"
+  },
+  {
+    "name": "Charlotte Smoothie",
+    "bounty": 932000000,
+    "arc": "Whole Cake Island",
+    "event": "Sweet Commander"
+  },
+  {
+    "name": "Charlotte Cracker",
+    "bounty": 860000000,
+    "arc": "Whole Cake Island",
+    "event": "Sweet Commander, Defeated by Luffy"
+  },
+  {
+    "name": "King",
+    "bounty": 1390000000,
+    "arc": "Wano",
+    "event": "Strongest All-Star, Defeated by Zoro"
+  },
+  {
+    "name": "Queen",
+    "bounty": 1320000000,
+    "arc": "Wano",
+    "event": "All-Star, Defeated by Sanji"
+  },
+  {
+    "name": "Jack",
+    "bounty": 1000000000,
+    "arc": "Zou",
+    "event": "All-Star, Bounty revealed"
+  },
+  {
+    "name": "Shanks",
+    "bounty": 4048900000,
+    "arc": "Post-Wano",
+    "event": "Emperor Bounty Reveal"
+  },
+  {
+    "name": "Charlotte Linlin",
+    "bounty": 4388000000,
+    "arc": "Post-Wano",
+    "event": "Emperor Bounty Reveal"
+  },
+  {
+    "name": "Kaido",
+    "bounty": 4611100000,
+    "arc": "Post-Wano",
+    "event": "Emperor Bounty Reveal"
+  },
+  {
+    "name": "Edward Newgate",
+    "bounty": 5046000000,
+    "arc": "Post-Marineford",
+    "event": "Legend Bounty Reveal (Former Emperor)"
+  },
+  {
+    "name": "Gol D. Roger",
+    "bounty": 5564800000,
+    "arc":  "-",
+    "event": "Legend Bounty Reveal (Pirate King)"
+  },
+  {
+    "name" : "Crocodile",
+    "bounty" : "81000000",
+    "arc" : "" ,
+    "event" :""
+  },
+  {
+    "name" : "Crocodile",
+    "bounty" : "1800000000",
+    "arc" : "",
+    "event" :""
+  }
+
+
+
+]
