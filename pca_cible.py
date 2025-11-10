@@ -73,3 +73,6 @@ plt.ylabel(f'PC2 - {per_var[1]}%')
 plt.show()
 
 # A 8 composantes on a 80.1%
+# Check coeff PC1
+# Contributiosn de var original / chaque var
+#Etudier distribution 
