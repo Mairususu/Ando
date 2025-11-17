@@ -1,3 +1,8 @@
+# Principal component analysis (PCA) is a dimensionality reduction technique that transforms 
+# a data set into a set of orthogonal components — called principal components — which capture 
+# the maximum variance in the data
+
+
 import pandas as pd
 import numpy as np
 from sklearn.decomposition import PCA
@@ -74,5 +79,5 @@ plt.show()
 
 # A 8 composantes on a 80.1%
 # Check coeff PC1
-# Contributiosn de var original / chaque var
+# Contribution de var original / chaque var
 #Etudier distribution 
