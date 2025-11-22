@@ -11,24 +11,35 @@ import matplotlib.pyplot as plt
 
 # --- 1. Load Data ---
 try:
-    df = pd.read_csv("spotify-2023.csv")
+    df = pd.read_csv("DATASET.csv")
 except UnicodeDecodeError:
-    df = pd.read_csv("spotify-2023.csv", encoding='latin1')
+    df = pd.read_csv("DATASET.csv", encoding='latin1')
 
 # --- 2. Select Your 12 Numeric Variables ---
+# numeric_cols = [
+#     'artist_count',
+#     'released_year',
+#     'released_month',
+#     'released_day',
+#     'bpm',
+#     'danceability_%',
+#     'valence_%',
+#     'energy_%',
+#     'acousticness_%',
+#     'instrumentalness_%',
+#     'liveness_%',
+#     'speechiness_%',
+#     'artist_dominance',
+#     'streams_per_day'
+# ] 
+
 numeric_cols = [
+    'valence_',
+    'danceability_',
+    'acousticness_', 
+    'bpm', 
     'artist_count',
-    'released_year',
-    'released_month',
-    'released_day',
-    'bpm',
-    'danceability_%',
-    'valence_%',
-    'energy_%',
-    'acousticness_%',
-    'instrumentalness_%',
-    'liveness_%',
-    'speechiness_%'
+    'streams_per_month'
 ]
 
 # Create the DataFrame using only these columns
