@@ -30,13 +30,14 @@ except UnicodeDecodeError:
 #     'liveness_%',
 #     'speechiness_%',
 #     'artist_dominance',
-#     'streams_per_day'
+#     'streams_per_month'
 # ] 
 
 numeric_cols = [
-    'valence_',
-    'danceability_',
-    'acousticness_', 
+    'valence_%',
+    'energy_%',
+    'danceability_%',
+    'acousticness_%', 
     'bpm', 
     'artist_count',
     'streams_per_month'
