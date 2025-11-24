@@ -32,10 +32,10 @@ df['streams_per_month'] = df['streams'] / df['months_since_release']
 
 
 # On compte combien de chansons chaque artiste a placé dans le Top
-artist_counts = df['artist_name'].value_counts()
+artist_counts = df['artist(s)_name'].value_counts()
 
 # On attribue ce score à chaque ligne
-df['artist_dominance'] = df['artist_name'].map(artist_counts)
+df['artist_dominance'] = df['artist(s)_name'].map(artist_counts)
 
 # --- FIN AJOUT FEATURE ENGINEERING ---
 
