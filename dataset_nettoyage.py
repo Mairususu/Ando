@@ -30,6 +30,13 @@ df['months_since_release'] = df['months_since_release'].clip(lower=1)
 # 5. Création de la variable finale
 df['streams_per_month'] = df['streams'] / df['months_since_release']
 
+
+# On compte combien de chansons chaque artiste a placé dans le Top
+artist_counts = df['artist_name'].value_counts()
+
+# On attribue ce score à chaque ligne
+df['artist_dominance'] = df['artist_name'].map(artist_counts)
+
 # --- FIN AJOUT FEATURE ENGINEERING ---
 
 
@@ -45,7 +52,7 @@ cols_to_drop += ['acousticness', 'danceability', 'energy', 'instrumentalness', '
                  ]
 
 # Drop columns created to calculate streams_per_month
-cols_to_drop += ['days_since_release', 'release_date', 'months_since_release'] 
+cols_to_drop += ['days_since_release', 'release_date', 'months_since_release', 'streams_per_day'] 
 
 # Drop columns that actually don't exist in your dataframe but might cause errors
 df_clean = df.drop(columns=cols_to_drop, errors='ignore')
