@@ -21,8 +21,10 @@ X = pd.get_dummies(X_temp, columns=['mode_x'], drop_first=True)
 # --- LA CORRECTION MAGIQUE ---
 # Au lieu de prédire 1 000 000 vs 10, on prédit log(1 000 000) vs log(10)
 # np.log1p fait log(1 + x) pour gérer les zéros proprement
-y_original = df_clean['streams_per_day']
-y = np.log1p(y_original) 
+# y_original = df_clean['streams_per_day']
+# y = np.log1p(y_original) 
+
+y = df_clean['streams_per_month']
 
 # 2. Standardisation (Toujours obligatoire)
 scaler = StandardScaler()
@@ -41,7 +43,7 @@ plt.figure(figsize=(12, 6))
 colors = ['red' if c < 0 else 'green' for c in coefs]
 coefs.plot(kind='barh', color=colors)
 
-plt.title("Impact sur le LOG des Streams (Correction d'échelle)")
+plt.title("Impact sur les streams par mois (streams_per_month)")
 plt.xlabel("Importance (Coefficient)")
 plt.axvline(0, color='black', linewidth=0.8)
 plt.grid(axis='x', alpha=0.3)
@@ -50,6 +52,8 @@ plt.show()
 print(f"Nouveau R² : {model.score(X_scaled, y):.4f}")
 print(f"Alpha choisi : {model.alpha_:.4f}") # Il devrait être beaucoup plus petit !
 
+# R2 = 0.5013
+# alpha = 0.2485
 
 
 # Interprétation : 
