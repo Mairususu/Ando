@@ -44,10 +44,13 @@ cols_to_drop += ['acousticness', 'danceability', 'energy', 'instrumentalness', '
                  'country_lastfm', 'tags_lastfm', 'listeners_lastfm', 'scrobbles_lastfm', 'ambiguous_artist', 'instance_id', 'loudness', 'tempo', 'obtained_date'
                  ]
 
+# Drop columns created to calculate streams_per_month
+cols_to_drop += ['days_since_release', 'release_date', 'months_since_release'] 
+
 # Drop columns that actually don't exist in your dataframe but might cause errors
 df_clean = df.drop(columns=cols_to_drop, errors='ignore')
 
-# Verification supplémentaire
+# Verification supplémentaire 
 df_clean = df_clean.drop(columns='country_mb', errors='ignore')
 
 # Verify the cleanup
