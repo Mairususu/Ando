@@ -37,6 +37,9 @@ artist_counts = df['artist(s)_name'].value_counts()
 # On attribue ce score à chaque ligne
 df['artist_dominance'] = df['artist(s)_name'].map(artist_counts)
 
+# B. Nombre de mots
+df['title_word_count'] = df['track_name'].astype(str).apply(lambda x: len(x.split()))
+
 # --- FIN AJOUT FEATURE ENGINEERING ---
 
 
