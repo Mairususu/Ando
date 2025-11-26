@@ -9,11 +9,18 @@ df = pd.read_csv("DATASET.csv")
 # 2. Sélection des variables numériques
 # (J'ai repris la liste exacte visible sur votre image pour être précis)
 colonnes_a_analyser = [
-    'valence_%', 'streams_per_month', 'released_year', 'in_spotify_charts',
-    'energy_%', 'acousticness_%', 'released_month', 'months_since_release',
-    'liveness_%', 'in_spotify_playlists', 'danceability_%', 'bpm',
-    'artist_dominance', 'streams', 'released_day', 'instrumentalness_%',
-    'artist_count', 'streams_per_day', 'speechiness_%', 'days_since_release'
+    'bpm', 
+    'danceability_%',
+    'valence_%', 
+    'energy_%', 
+    'acousticness_%', 
+    'instrumentalness_%', 
+    'liveness_%', 
+    'speechiness_%', 
+    'artist_count',
+    'artist_dominance',
+    'artist_target_encoded',
+    'title_word_count'
 ]
 
 # On filtre pour ne garder que les colonnes qui existent vraiment dans le fichier
@@ -46,7 +53,7 @@ sns.boxplot(
 
 # 5. Esthétique
 plt.title("Comparaison de la Variance des Variables (Normalisées)", fontsize=16)
-plt.xlabel("Distribution Standardisée (Z-score)", fontsize=12)
+plt.xlabel("Distribution Standardisée", fontsize=12)
 plt.ylabel("Variables", fontsize=12)
 plt.grid(axis='x', linestyle='--', alpha=0.5) # Grille légère verticale
 

@@ -6,7 +6,7 @@ import numpy as np
 # --- 1. Préparation des données ---
 
 # Remplacez par le nom de votre fichier
-df = pd.read_csv("DATASET_ENRICHIE.csv")
+df = pd.read_csv("DATASET.csv")
 
 # Liste des variables que vous avez sélectionnées
 variables_explicatives = [
@@ -20,7 +20,6 @@ variables_explicatives = [
     'speechiness_%', 
     'artist_count',
     'artist_dominance',
-    'artist_target_encoded',
     'title_word_count'
 ]
 
@@ -51,7 +50,7 @@ ax = sns.heatmap(
     cbar_kws={"shrink": 0.8} # Réduit un peu la barre de légende latérale
 )
 
-plt.title("Matrice de Corrélation des Variables Sélectionnées", fontsize=16)
+plt.title("Matrice de Corrélation des Variables Quantitative", fontsize=16)
 
 # --- LES CORRECTIONS SONT ICI ---
 # 1. On incline les étiquettes de l'axe X pour qu'elles prennent moins de place verticale
