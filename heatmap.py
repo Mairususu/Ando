@@ -6,7 +6,7 @@ import numpy as np
 # --- 1. Préparation des données ---
 
 # Remplacez par le nom de votre fichier
-df = pd.read_csv("DATASET.csv")
+df = pd.read_csv("DATASET_ENRICHIE.csv")
 
 # Liste des variables que vous avez sélectionnées
 variables_explicatives = [
@@ -19,7 +19,9 @@ variables_explicatives = [
     'liveness_%', 
     'speechiness_%', 
     'artist_count',
-    'artist_dominance'
+    'artist_dominance',
+    'artist_target_encoded',
+    'title_word_count'
 ]
 
 variable_cible = 'streams_per_month' 
