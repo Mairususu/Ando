@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Chargement et Création de la Variable (Rappel) ---
 try:
-    df = pd.read_csv("spotify-2023.csv")
+    df = pd.read_csv("spotify-2023.csv") ##n'est pas l'original mais le traité
 except UnicodeDecodeError:
     df = pd.read_csv("spotify-2023.csv", encoding='latin1')
 
@@ -19,26 +19,27 @@ df['release_date'] = pd.to_datetime(df[['released_year', 'released_month', 'rele
 date_ref = df['release_date'].max()
 df['days_since_release'] = (date_ref - df['release_date']).dt.days + 1
 df['streams_per_day'] = df['streams'] / df['days_since_release']
+df['streams_per_month'] = df['streams_per_day']/30 #environ 30 jours dans un mois.
 
 # Sélection des Variables 
 
 # X : Caractéristiques Musicales (On enlève l'année)
 X_cols = [
     'bpm', 'danceability_%', 'valence_%', 'energy_%',
-    'acousticness_%', 'instrumentalness_%', 'liveness_%', 'speechiness_%'
+    'acousticness_%', 'artist_count','artist_dominance','title_word_count'
 ]
 
 # Y : Indicateurs de Succès (Avec la nouvelle variable)
 Y_cols = [
-    'streams_per_day',       #  Nouvelle variable au lieu de stream 
+    'streams_per_month',       #  Nouvelle variable au lieu de stream 
     'in_spotify_playlists', 
     'in_spotify_charts', 
-    'in_apple_charts',
-    'in_apple_playlists', 
-    'in_deezer_playlists', 
-    'in_deezer_charts', 
-    'in_shazam_charts'
-]
+    #'in_apple_charts',
+    #'in_apple_playlists', 
+    #'in_deezer_playlists', 
+    #'in_deezer_charts', 
+    #'in_shazam_charts'
+]#JE LES AI ENLEVE CAR ELLES NE SONT PAS DANS NOTRE DATASET.
 
 # Nettoyage Final 
 # On nettoie tout (virgules, strings) dans les colonnes sélectionnées
@@ -53,7 +54,7 @@ df_cca = df[subset_cols].dropna()
 # Fit CCA 
 scaler_x = StandardScaler()
 scaler_y = StandardScaler()
-X_scaled = scaler_x.fit_transform(df_cca[X_cols])
+X_scaled = scaler_x.fit_transform(df_cca[X_cols]) # X est bien scaled
 Y_scaled = scaler_y.fit_transform(df_cca[Y_cols])
 
 cca = CCA(n_components=1)
@@ -67,12 +68,33 @@ plt.figure(figsize=(10, 8))
 sns.scatterplot(
     x=X_c[:, 0], 
     y=Y_c[:, 0], 
-    hue=np.log1p(df_cca['streams_per_day']), # Log scale for better color gradient
+    hue=np.log1p(df_cca['streams_per_month']), # Log scale for better color gradient
     palette='viridis',
     alpha=0.7
 )
 
 # Add a diagonal line (Perfect correlation would lie on this line)
+
+### essai pour afficher X et Y début
+print("Composante canonique X :", X_c.ravel())
+print("Composante canonique Y :", Y_c.ravel())
+
+print("coefficients valeurs de x : ", cca.x_weights_)
+print("coefficients valeurs de y : ", cca.y_weights_)
+
+
+
+
+X_loadings = np.corrcoef(X_scaled.T, X_c[:,0])[len(X_cols):, :len(X_cols)]
+Y_loadings = np.corrcoef(Y_scaled.T, Y_c[:,0])[len(Y_cols):, :len(Y_cols)]
+
+# print(pd.Series(X_loadings[0,0], index=X_cols))
+# print(pd.Series(Y_loadings[0,0], index=Y_cols))
+
+
+
+### essai pour afficher X et Y fini
+
 min_val = min(X_c.min(), Y_c.min())
 max_val = max(X_c.max(), Y_c.max())
 plt.plot([min_val, max_val], [min_val, max_val], color='red', linestyle='--', label='Perfect Correlation')
@@ -110,4 +132,6 @@ plt.show()
 # plt.show()
 
 # Interpretation 
+
+# et bien et bien : 
 
