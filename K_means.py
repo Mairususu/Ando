@@ -72,7 +72,7 @@ plt.show()
 # Rq: si plusieurs coudes, prendre celui avec le moins de classes possible pour simplifier le modèle.
 # Version 1: K=4
 
-K=6
+K=4
 
 #Entrainement
 # Initialization
@@ -147,3 +147,35 @@ Centroïde du cluster 5
 
  Silhouette score : faible (0.145 / 0.113), donc clusters pas très séparés, mais permettent quand même de repérer des tendances
 """
+
+#test affichage, à modifier
+
+from sklearn.decomposition import PCA
+
+# PCA 2D
+pca = PCA(n_components=2)
+X_train_pca = pca.fit_transform(X_train)
+
+# Popularité non normalisée pour la taille des points
+# On récupère les indices de X_train dans data_numeric pour avoir la popularité originale
+train_indices = X_train.tolist()
+popularite_train = data_numeric['streams_per_month'].iloc[:X_train.shape[0]]
+
+# Tracer
+plt.figure(figsize=(10, 7))
+
+# Points colorés selon le cluster
+scatter = plt.scatter(
+    X_train_pca[:, 0],
+    X_train_pca[:, 1],
+    c=train_pred,                   # couleur = cluster
+    s=(popularite_train / popularite_train.max())*200,  # taille = popularité normalisée
+    cmap='tab10',
+    alpha=0.6
+)
+
+plt.xlabel("PC1")
+plt.ylabel("PC2")
+plt.title("Clusters KMeans avec popularité représentée par la taille")
+plt.colorbar(scatter, label='Cluster')
+plt.show()
