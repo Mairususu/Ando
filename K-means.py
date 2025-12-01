@@ -11,7 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #lire data
-df = pd.read_csv("adapt2.csv", sep=',')
+df = pd.read_csv("DATASET.csv", sep=',')
 # supprimer la première colonne
 data = df.iloc[:, 1:]
 
