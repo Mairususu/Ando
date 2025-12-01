@@ -78,3 +78,20 @@ plt.scatter(x_train_norm[:, 0], x_train_norm[:, 2], c=train_pred)
 plt.xlabel('Longueur des sépales')
 plt.ylabel('Longueur des pétales')
 plt.show()
+
+#Calcul des centroides
+
+# Initialization
+km = KMeans(3)
+
+# Training
+km.fit(x_train_norm)
+
+# Prediction
+train_pred = km.predict(x_train_norm)
+
+plt.scatter(x_train_norm[:, 0], x_train_norm[:, 2], c=train_pred)
+plt.scatter(km.cluster_centers_[0, 0], km.cluster_centers_[0, 2], color='violet', marker="X", s=200)
+plt.scatter(km.cluster_centers_[1, 0], km.cluster_centers_[1, 2], color='green', marker="X", s=200)
+plt.scatter(km.cluster_centers_[2, 0], km.cluster_centers_[2, 2], color='goldenrod', marker="X", s=200)
+plt.show()
