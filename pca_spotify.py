@@ -48,7 +48,7 @@ plt.figure(1) # Ajout pour gérer plusieurs graphiques
 plt.bar(x = range(1, len(per_var) + 1), height = per_var, tick_label = labels)
 plt.ylabel('Pourcentage de variance expliquée')
 plt.xlabel('Composants principaux')
-plt.title('Scree Plot')
+plt.title('Pourcentage de variance expliquée par composante principale')
 # --- Fin du premier graphique ---
 
 
