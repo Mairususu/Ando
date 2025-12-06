@@ -1,55 +1,77 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np # On a besoin de numpy pour le log
+import numpy as np
 from sklearn.linear_model import LassoCV
 from sklearn.preprocessing import StandardScaler
 
-
+# Chargement des données
 df_clean = pd.read_csv("DATASET.csv")
 
 # 1. Sélection des variables
 features = [
     'bpm', 'danceability_%', 'valence_%', 'energy_%', 
     'acousticness_%', 'instrumentalness_%', 'liveness_%', 
-    'speechiness_%', 'artist_count', 'artist_dominance'
+    'speechiness_%', 'artist_count', 'artist_dominance', 'title_word_count'
 ]
 
-# Préparation de X (avec mode_x transformé)
-X_temp = df_clean[features + ['mode_x']]
-X = pd.get_dummies(X_temp, columns=['mode_x'], drop_first=True)
+# Préparation de X
+X = df_clean[features]
 
-# --- LA CORRECTION MAGIQUE ---
-# Au lieu de prédire 1 000 000 vs 10, on prédit log(1 000 000) vs log(10)
-# np.log1p fait log(1 + x) pour gérer les zéros proprement
-y_original = df_clean['streams_per_month']
-y = np.log1p(y_original) 
+# Préparation de y avec transformation Log
+# C'est la "correction magique" pour gérer l'échelle exponentielle des streams
+y = np.log1p(df_clean['streams_per_month'])
 
-
-
-# 2. Standardisation (Toujours obligatoire)
+# 2. Standardisation (Obligatoire pour Lasso)
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
-# 3. LassoCV (On réessaie)
-# J'ai réduit le cv à 5 et augmenté les itérations pour aider le modèle
-print("Recherche du modèle optimal...")
+# 3. Entraînement du modèle LassoCV
+print("Recherche du modèle optimal (Lasso)...")
+# cv=5 pour la validation croisée, max_iter grand pour assurer la convergence
 model = LassoCV(cv=5, random_state=42, max_iter=50000)
 model.fit(X_scaled, y)
 
-# 4. Visualisation
-coefs = pd.Series(model.coef_, index=X.columns).sort_values()
+# ---------------------------------------------------------
+# PARTIE AJOUTÉE : TABLEAU DES COEFFICIENTS
+# ---------------------------------------------------------
 
+# Création d'un DataFrame pour les coefficients
+df_coefs = pd.DataFrame({
+    'Variable': features,
+    'Coefficient': model.coef_
+})
+
+# Calcul de la valeur absolue pour trier par "force" de l'impact
+df_coefs['Importance'] = df_coefs['Coefficient'].abs()
+
+# Tri décroissant (les plus importants en haut)
+df_coefs_sorted = df_coefs.sort_values(by='Importance', ascending=False).drop(columns=['Importance'])
+
+# Affichage du tableau
+print("\n=== RÉSULTATS DU LASSO ===")
+print(f"R² du modèle : {model.score(X_scaled, y):.4f}")
+print(f"Alpha optimal (pénalité) : {model.alpha_:.6f}")
+print("\n--- TABLEAU DES COEFFICIENTS (Trié par importance) ---")
+print(df_coefs_sorted.to_string(index=False))
+
+# ---------------------------------------------------------
+# 4. Visualisation Graphique
+# ---------------------------------------------------------
 plt.figure(figsize=(12, 6))
-colors = ['red' if c < 0 else 'green' for c in coefs]
-coefs.plot(kind='barh', color=colors)
 
-plt.title("Impact sur les streams par mois (streams_per_month)")
+# Pour le graphique, on trie par valeur réelle (du négatif au positif)
+coefs_plot = pd.Series(model.coef_, index=features).sort_values()
+
+# Couleurs : Vert pour positif, Rouge pour négatif
+colors = ['red' if c < 0 else 'green' for c in coefs_plot]
+
+coefs_plot.plot(kind='barh', color=colors)
+
+plt.title(f"Impact des variables sur les streams (Lasso) - R²: {model.score(X_scaled, y):.3f}")
 plt.xlabel("Importance (Coefficient)")
 plt.axvline(0, color='black', linewidth=0.8)
 plt.grid(axis='x', alpha=0.3)
-
-print(f"Nouveau R² : {model.score(X_scaled, y):.4f}")
-print(f"Alpha choisi : {model.alpha_:.4f}") # Il devrait être beaucoup plus petit !
+plt.tight_layout()
 plt.show()
 
 
